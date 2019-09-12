@@ -17,8 +17,10 @@
   margin: 0;
 }
 
+@media (min-width:320px) {
 body {
   font-family: OpenSans, sans-serif;
+}
 }
 
 .header_footer_block {
@@ -77,11 +79,13 @@ body {
   font-size: 90px;
   font-weight: bold;
   text-transform: uppercase; 
+  align-items: center;
 }
 
 .new_row {
   display: block;
   padding-left: 452px;
+  align-items: center;
 }
 
 .store_buttons {
@@ -105,6 +109,12 @@ body {
 
 .store_button_logo {
   height: 48px;
+}
+
+.bold {
+  font-weight: bold;
+  text-transform: uppercase;
+  color:white;
 }
 
 .store_button_text {
@@ -133,8 +143,8 @@ body {
 }
 
 .athlets .player_img {
-  margin-top: 27px;
-  margin-left: calc(50% - 568px);
+  margin-top: auto;
+  margin-left: auto;
   height: 908px;
 }
 
@@ -220,6 +230,7 @@ ol li {
   font-weight: bold;
   padding-bottom: 5px;
   border-bottom: 5px solid #5e42b0;
+  border-radius: 2px;
 }
 
 .athlets .player_item:nth-child(3n+3) .list_title::before {
@@ -370,10 +381,12 @@ ol li {
 @media (min-width: 961px) and (max-width: 1920px) {
   .header_caption {
       width: 100%;
+      text-align: center;
   }
   
   .new_row {
     padding-left: 27%;
+    text-align: center;
   }
   
   .basketball .player_title, .basketball .list_title, .basketball .list_paragraph {
@@ -696,6 +709,7 @@ ol li {
     font-size: 4.38vw;
     padding-bottom: 0;
     border-bottom-width: 0.94vw;
+    border-radius: 10px;
   }
 
   .list_paragraph {
